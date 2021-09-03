@@ -1,1 +1,143 @@
 /* Add CSS styling here */
+
+/* global */
+
+* {
+    /* border: .5px solid gray; */
+    font-family: 'Martel', serif;
+    /* background:#0f4c5c; */
+    max-width: ;
+}
+
+/* Main */
+
+.main {
+    background-color: #edf6f9;
+}
+
+
+/* TOP */
+
+.top{
+    display: flex;
+
+}
+
+.top .image1 img{
+    padding:10px;
+    width: 80%;
+    border-radius: 10%; 
+
+}
+
+.top .info button{
+    /* width:30%; */
+}
+
+.top .info{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    width:20%;
+}
+
+/* header/nav */
+
+
+header {
+    background-color:#83c5be;
+    padding:2%;
+}
+
+header h1 {
+    font-family: 'Architects Daughter', cursive;
+    background:#006d77;
+    width: 30%;
+    border-radius: 10px;
+    color: #edf6f9;
+    display:flex;
+    justify-content: center;
+    margin:20px;
+}
+
+header .links {
+    display:flex;
+    padding-left: 20px;
+}
+
+.info button{
+    width:25%;
+}
+
+.links button{
+    background-color: #f7ede2;
+    color:#e36414;
+    /* border: 1px solid gray; */
+    border-radius: 5px;
+    /* border:2px solid gray; */
+}
+
+
+
+/* bottom css */
+
+.bottom img{
+    width: 90%;
+}
+
+.bottom-2 img{
+    width:90%;
+}
+
+
+.bottom{
+    display:flex;
+    justify-content: space-around;
+}
+
+.bottom p{
+    display:flex;
+    justify-content: center;
+}
+
+.bottom img{
+    border-radius: 20px;
+}
+
+.bottom-2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom-2 p{
+    display:flex;
+    justify-content: center;
+}
+
+.bottom-2 img{
+    border-radius: 20px;
+
+}
+
+/* footer */
+
+
+footer {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width:100%;
+    padding:30px;
+    background-color: #a7c957;
+}
+
+footer p{
+    align-self: center;
+}
+
+footer button{
+    align-self: center;
+    width:5%;
+    background: white;
+}
+

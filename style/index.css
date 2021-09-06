@@ -2,12 +2,14 @@
 
 /* global */
 
+
+
+
+
 * {
-    /* border: .5px solid gray; */
     font-family: 'Martel', serif;
-    /* background:#0f4c5c; */
-    max-width: ;
 }
+
 
 /* Main */
 
@@ -30,9 +32,7 @@
 
 }
 
-.top .info button{
-    /* width:30%; */
-}
+
 
 .top .info{
     display:flex;
@@ -47,17 +47,18 @@
 header {
     background-color:#83c5be;
     padding:2%;
+    
 }
 
 header h1 {
     font-family: 'Architects Daughter', cursive;
     background:#006d77;
-    width: 30%;
+    max-width: 140px;
     border-radius: 10px;
     color: #edf6f9;
     display:flex;
-    justify-content: center;
     margin:20px;
+    text-align: center;
 }
 
 header .links {
@@ -139,5 +140,43 @@ footer button{
     align-self: center;
     width:5%;
     background: white;
+}
+
+@media (min-width: 640px){
+    .main{
+         width:98%;
+         padding: 20px 1%;
+         display: flex;
+         flex-direction: column;
+         align-content: space-between;
+         color:green;
+         text-align: center;
+           
+    }
+ }
+
+ @media (min-width:640px){
+     #container{
+         width:98%;
+         padding: 20px 1%;
+         display: flex;
+         flex-direction: column;
+         justify-content: flex-end;
+
+
+     }
+ }
+
+ @media (min-width:640px){
+    header{
+        width:98%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        padding: 20px 1%;
+
+    }
+    
 }
 
